@@ -1,0 +1,32 @@
+.terminal {
+  background-color: black;
+  color: white;
+  max-width: 250px;
+  width: 250px;
+  border-style: solid;
+  border-color: #222;
+  border-radius: 15px;
+  overflow: scroll;
+}
+
+.terminal-bar {
+  border-style: solid;
+  background-color: #222;
+  color: white;
+  border-color: #111;
+  height: 50px;
+  overflow: hidden;
+}
+
+.terminal-bar p {
+  margin: 15px;
+  justify-content: center;
+  position: relative;
+}
+
+.terminal-content {
+  margin: 10px;
+  font-size: 12px;
+  margin-left: 15px;
+  max-height: 100px;
+}
